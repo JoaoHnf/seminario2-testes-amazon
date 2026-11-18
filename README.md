@@ -62,7 +62,7 @@ Os requisitos foram definidos para orientar a avaliação acadêmica a partir do
 Cada requisito está associado a critérios de aceitação e casos de teste:
 
 - [Requisitos](docs/requisitos.md)
-- [Critérios de aceitação](docs/criterios-aceitacao.md)
+- [Critérios de aceitação](docs/Criterios-aceitacao.md)
 - [Rastreabilidade](testes/rastreabilidade.md)
 
 ## Estratégia de testes
