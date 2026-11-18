@@ -19,9 +19,10 @@
   correspondente ao livro Dom Quixote, da editora Nova Fronteira.
 
 - Resultado obtido: preencher após executar a pesquisa.
-- Status: E
+- Status: 
 - Evidência: Busca: https://www.amazon.com.br/s?k=DOM+QUIXOTE+-+NOVA+FRONTEIRA&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1MMDGYK264UOT&sprefix=dom+quixote+-+nova+fronteira%2Caps%2C239&ref=nb_sb_noss_2; Print: C:\Users\arqui\OneDrive\Desktop\LUIS SEMINÁRIO\EVIDENCIAS
 - Issue, se houver: preencher caso seja identificado um defeito.
+- print: evidencias/CA01.png
 
 ### CT02 — Busca sem correspondência
 
@@ -52,6 +53,7 @@
 - Evidência: ![https://www.amazon.com.br/s?k=zzqvproduto987654321%3B&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2P915X7DCRXEA&sprefix=zzqvproduto987654321+%2Caps%2C301&ref=nb_sb_noss]
 C:\Users\arqui\OneDrive\Desktop\LUIS SEMINÁRIO\EVIDENCIAS
 - Issue, se houver: não se aplica.
+- Evidencia: evidencias/CA02.png
 
 ### CT03 — Detalhes do produto
 
@@ -89,6 +91,7 @@ C:\Users\arqui\OneDrive\Desktop\LUIS SEMINÁRIO\EVIDENCIAS
 - Status: PASS
 
 - Evidência: C:\Users\arqui\OneDrive\Desktop\LUIS SEMINÁRIO\EVIDENCIAS
+- evidencias/CA03.png
 - Issue, se houver: não se aplica.
 
 - Observações: a oferta apresentaVA somente uma unidade
@@ -136,6 +139,10 @@ C:\Users\arqui\OneDrive\Desktop\LUIS SEMINÁRIO\EVIDENCIAS
 
 - Evidências:
 C:\Users\arqui\OneDrive\Desktop\LUIS SEMINÁRIO\EVIDENCIAS
+Prints:
+evidencias/CA04-PT1.png
+evidencias/CA04-PT2.png
+evidencias/CA04-PT3.png
 
 - Issue, se houver: nenhuma identificada até esta etapa.
 
@@ -186,6 +193,9 @@ C:\Users\arqui\OneDrive\Desktop\LUIS SEMINÁRIO\EVIDENCIAS
   permaneceu com uma unidade e apresentou a mensagem
   “No momento há apenas 1 em estoque”.
 
+  evidencias/CA05.png
+  evidencias/CA05-PT2.png
+
 
 ### CT06 — Limite mínimo de quantidade no carrinho
 
@@ -227,6 +237,9 @@ C:\Users\arqui\OneDrive\Desktop\LUIS SEMINÁRIO\EVIDENCIAS
 - Evidência: ![Limite mínimo de quantidade](../evidencias/CT06-limite-minimo.png)
 
 - Issue, se houver: não se aplica.
+
+  Prints: 
+  evidencias/CA06.png
 
 - Observações: neste caso foi verificado o controle no limite
   mínimo. A execução da exclusão será avaliada no CT09.
@@ -282,6 +295,8 @@ C:\Users\arqui\OneDrive\Desktop\LUIS SEMINÁRIO\EVIDENCIAS
   O preço utilizado no cálculo foi o valor vigente da oferta,
   de R$ 86,54 por unidade.
 
+  evidencias/CA07.png
+
 ### CT08 — Persistência do carrinho após atualizar a página
 
 - Requisito: RF04
@@ -324,7 +339,8 @@ C:\Users\arqui\OneDrive\Desktop\LUIS SEMINÁRIO\EVIDENCIAS
   - ![Depois da atualização](../evidencias/CT08-depois.png)
 
 - Issue, se houver: [informar o link ou “não se aplica”].
-
+	evidencias/CA08ANTES.png
+	evidencias/CA08DEPOIS.png
 
 ### CT09 — Remoção de produto do carrinho
 
@@ -361,6 +377,7 @@ C:\Users\arqui\OneDrive\Desktop\LUIS SEMINÁRIO\EVIDENCIAS
 - Evidência: ![Remoção do produto](../evidencias/CT09-remocao.png)
 
 - Issue, se houver: [informar o link ou “não se aplica”].
+- Prints: evidencias/CA09.png
 
 - Observações: se outros produtos permaneceram no carrinho,
   registrar essa diferença na pré-condição e conferir
@@ -402,7 +419,7 @@ C:\Users\arqui\OneDrive\Desktop\LUIS SEMINÁRIO\EVIDENCIAS
 
 - Status: [PASS / FAIL / NÃO EXECUTADO]
 
-- Evidência: ![Autenticação solicitada](../evidencias/CT10-autenticacao-solicitada.png)
+- Evidência: evidencias/CA10.png
 
 - Issue, se houver: [informar o link ou “não se aplica”].
 
@@ -446,7 +463,7 @@ C:\Users\arqui\OneDrive\Desktop\LUIS SEMINÁRIO\EVIDENCIAS
 
 - Observações: ocultar dados pessoais na evidência.
   Nenhum pedido deve ser confirmado.
-
+evidencias/CA11.png
 
 ### CT12 — Consistência das informações no checkout
 
@@ -501,8 +518,7 @@ C:\Users\arqui\OneDrive\Desktop\LUIS SEMINÁRIO\EVIDENCIAS
 - Status: PASS
 
 - Evidências:
-  - ![Resumo financeiro](../evidencias/CT12-resumo-financeiro.png)
-  - ![Revisão do produto](../evidencias/CT12-revisao-produto.png)
+  evidencias/CA12.png
 
 - Issue, se houver: não se aplica.
 
