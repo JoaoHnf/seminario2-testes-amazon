@@ -19,7 +19,7 @@
   correspondente ao livro Dom Quixote, da editora Nova Fronteira.
 
 - Resultado obtido: preencher após executar a pesquisa.
-- Status: 
+- Status: PASS
 - Evidência: Busca: https://www.amazon.com.br/s?k=DOM+QUIXOTE+-+NOVA+FRONTEIRA&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1MMDGYK264UOT&sprefix=dom+quixote+-+nova+fronteira%2Caps%2C239&ref=nb_sb_noss_2; Print: C:\Users\arqui\OneDrive\Desktop\LUIS SEMINÁRIO\EVIDENCIAS
 - Issue, se houver: preencher caso seja identificado um defeito.
 - print: evidencias/CA01.png
