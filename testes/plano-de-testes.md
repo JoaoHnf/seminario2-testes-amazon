@@ -1,6 +1,6 @@
-Item                                        Definição
 
-Objetivo 				    Realizar a avaliação de consistência do fluxo da busca ao checkout, antes da confirmação da compra.
+
+Objetivo :				    Realizar a avaliação de consistência do fluxo da busca ao checkout, antes da confirmação da compra.
 
 Funcionalidades testadas	            Busca/pesquisa, detalhes, carrinho, autenticação ao checkout e validação de endereço.
 
